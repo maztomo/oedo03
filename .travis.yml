@@ -1,3 +1,11 @@
+language: ruby
+
 bundler_args: --without development:production
+
 rvm: 1.9.3
+
 script: bundle exec rake stats # dummy
+
+notifications:
+  webhooks:
+    - https://koideploy.com/webhooks/travis-ci/hsbt
