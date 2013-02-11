@@ -8,14 +8,16 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><%= link_to 'Top', root_path %></li>
-        <li><%= link_to 'Schedule', schedule_path %></li>
-        <li><%= link_to 'Speakers', speakers_path %></li>
-        <li><%= link_to 'Venue', venue_path %></li>
-        <li><a href="http://asakusarb.doorkeeper.jp/events/2737">Register</a></li>
-      </ul>
+    <nav class="navbar">
+     <div class="navbar-inner">
+       <ul class="nav">
+          <li class="active"><%= link_to 'Top', root_path %></li>
+          <li><%= link_to 'Schedule', schedule_path %></li>
+          <li><%= link_to 'Speakers', speakers_path %></li>
+          <li><%= link_to 'Venue', venue_path %></li>
+          <li><a href="http://asakusarb.doorkeeper.jp/events/2737">Register</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 <%= yield %>
