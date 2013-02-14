@@ -9,6 +9,7 @@ group :assets do
   gem 'bootstrap-sass'
   gem 'coffee-rails'
   gem 'uglifier'
+  gem 'font-awesome-sass-rails'
 end
 
 gem 'jquery-rails'
